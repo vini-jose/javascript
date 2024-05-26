@@ -16,9 +16,8 @@ if (area == 0) {
     } 
 }
 
-let c = 1; 
-
-while (c > 0) {
+let msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo.");
+while (msg === "ok") {
     var tecnologia = prompt("Quais são as tecnologias que você gostaria de se especializar?");
     var continua = prompt("Tem mais alguma tecnologia que você gostaria de aprender? (Sim ou Não)");
 
